@@ -1,0 +1,178 @@
+body{ background-color: hsl(229, 57%, 11%);
+
+}
+
+@media (max-width: 1440px){
+  body{ display: flex;
+    flex-direction: row;
+  justify-content: center;
+    align-items: center;
+    height:800px;
+    width:100%; 
+    position: relative;
+  }
+  .item-0{ background: black;
+  height: 49%;
+    width: 98%;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  #backandforth{
+    background:red;
+    width:5px;
+    height: 5px;
+    border-radius: 5px;
+     animation-name: backandforth;
+    animation-delay: 2s;
+    animation-duration: 10s;
+     animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+  }
+  
+ /* @keyframes backandforth {
+  from {background-color: black;
+    transform: scale(0.5);
+    }
+  to {background-color: red;
+    transform: scale(3);
+    margin:20px;
+    }
+}*/
+
+  
+  
+  #dark{ background: black; width:5px;
+    height: 5px;
+    border-radius: 5px;
+     animation-name: dark;
+    animation-delay: 2s;
+    animation-duration: 10s;
+     animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+  }
+ 
+  
+  .son-0{ display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;}
+ 
+  .first{ top: -25px; 
+    position: relative; }
+  .second{ top: -23px; margin:4px;  
+    position: relative; }
+  .third{  top: -21px;  
+    position: relative; margin: 4px;}
+  .fourth{ top: -19px;  
+    position: relative; margin: 4px;}
+  .fifth{  top: -17px;  
+    position: relative; margin: 4px;}
+  .sixth{ top: -15px;  
+    position: relative; margin: 4px;}
+  .seventh{ top: -13px;  
+    position: relative; margin: 4px;}
+  .eigth{  top: -11px;  
+    position: relative; margin: 4px;}
+  .ninth{ order: 9; top: -9px;  
+    position: relative; margin: 4px;}
+  .tenth{ order: 10; top: -7px;  
+    position: relative; margin: 4px;}
+  .eleventh{ order: 11; top: -5px;  
+    position: relative; margin: 4px;}
+  .twelveth{ order: 12; top: -3px;  
+    position: relative; margin: 4px;}
+  
+  
+  
+  .item-1{height: 150px;
+  width:250px;
+    background-color: hsl(228, 56%, 26%);
+    order: 1;
+   
+    border-radius: 5px 75px 5px 5px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .fylo{
+    color: hsl(243, 100%, 93%);
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    position: absolute;
+    margin: 100px 60px;
+    
+  }
+  .item-2{
+    height: 100px;
+  width: 400px;
+    background-color: hsl(228, 56%, 26%);
+    order: 2;
+    position: relative;
+    top: 25px;
+    left: 19px;
+    margin-right: 40px;
+    border-radius: 5px ; 
+  }
+  .son-1{ background-color: hsl(229, 57%, 11%);
+  height: 30px;
+  width: 30px;
+  border-radius: 5px 5px 5px 5px;
+  margin-bottom: 35px;
+  margin-left: 15px;
+  position: relative;
+  left: 10px;}
+  
+  .son-2{background-color:  hsl(229, 57%, 11%);
+   height: 16px;
+  width: 340px;
+    position: absolute;
+    top: 42px;
+    left: 30px;
+    border-radius: 8px;
+   }
+  
+  .grandson-2{
+    background: linear-gradient(hsl(6, 100%, 80%) ,hsl(335, 100%, 65%));
+    height: 14px;
+  width: 276px;
+    border-radius: 7px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+  }
+  .pet-2{  
+    background: hsl(243, 100%, 93%);
+    height: 12px;
+    width: 12px;
+    border-radius: 6px;
+     position: absolute;
+    top: 1px;
+    left: 263px;
+  }
+  .bro-2{
+    background: #FFFFFF;
+    height: 60px;
+    width: 140px;
+    border-radius: 5px;
+    position: absolute;
+    right: 25px;
+    bottom: 80px;
+  }
+  .sis-2{
+    width: 0;
+    height: 0;
+    border-top: 20px solid #FFFFFF;
+      border-left: 20px solid transparent;
+    position: absolute;
+    right: 25px;
+    bottom: 65px;
+  }
+  
+}
